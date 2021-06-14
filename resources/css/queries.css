@@ -1,0 +1,103 @@
+@media screen and (max-width:1200px){
+    .row{
+        width: 100%;
+        padding: 0 60px;
+    }
+    .hero-text-box{
+        width: 100%;
+    }
+    .close-btn ion-icon{
+        margin: -2px -22px;
+    }
+    nav.uk-sticky-fixed .close-btn ion-icon{
+        margin: -25px -22px;
+    }
+}
+@media  screen and (max-width:1024px) {
+    .grid-about-container{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .paul{
+        width: 50%;
+    }
+    .grid-process-container,
+    .grid-portfolio-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-portfolio-items:nth-child(5){
+        grid-column: 1/2;
+    }
+    .grid-portfolio-items:nth-child(3) {
+        background: url(img/mominur_rahman.jpg) no-repeat center / cover;
+    }
+    nav.uk-sticky-fixed .close-btn ion-icon{
+        margin: -25px -25px;
+    }
+   
+}
+
+@media screen and (max-width:768px){
+    .paul{
+        width: 70%;
+    }
+    .grid-experience-container,
+    .grid-testimonial-container,
+    .grid-contact-container{
+        grid-template-columns: 1fr;
+    }
+    .description{
+        width: 100%;
+    }
+    nav.uk-sticky-fixed .close-btn ion-icon{
+        margin: -25px -25px;
+    }
+    .close-btn ion-icon{
+        margin: -2px -25px;
+    } 
+     
+}
+@media screen and (max-width:480px) {
+    html,
+    body{
+        font-size: 8px;
+    }
+    h1{
+        font-size: 400%;
+    }
+    .paul{
+        width: 100%;
+    }
+    .nav-icon ion-icon{
+        font-size: 350%;
+    }
+    .logo{
+        width: 25px;
+    }
+    .grid-process-container,
+    .grid-portfolio-container{
+        grid-template-columns: 1fr;
+    }
+    .portfolio-filter button{
+        margin: 5px 6px;
+    }
+    .row{
+        padding: 0 30px;
+    }
+    nav.uk-sticky-fixed .close-btn ion-icon{
+        margin: -25px -54px;
+    }
+    .close-btn ion-icon{
+        font-size: 350%;
+        margin: -2px -54px;
+    }
+   
+}
+@media  screen and (max-width:375px) {
+    h1{
+        font-size: 250%;
+    }
+    .hero-text-box span{
+        font-size: 160%;
+    }
+}
